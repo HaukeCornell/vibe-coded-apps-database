@@ -1,0 +1,204 @@
+{
+  "generated_at": "2025-09-17T19:49:07.162425",
+  "total_statistics": {
+    "total_active_apps": 2051,
+    "platforms_with_data": 2,
+    "total_github_repos": 87,
+    "total_community_apps": 1964,
+    "total_github_stars": 0,
+    "most_popular_language": "Unknown",
+    "most_popular_language_count": 0,
+    "earliest_app": "2025-09-17 23:48:56",
+    "latest_app": "2025-09-17 23:48:58"
+  },
+  "platform_statistics": [
+    {
+      "platform_name": "v0.dev",
+      "total_apps": 1964,
+      "apps_last_30_days": 1964,
+      "apps_last_7_days": 1964,
+      "first_app_date": "2025-09-17 23:48:56",
+      "latest_app_date": "2025-09-17 23:48:58"
+    },
+    {
+      "platform_name": "github.com",
+      "total_apps": 87,
+      "apps_last_30_days": 87,
+      "apps_last_7_days": 87,
+      "first_app_date": "2025-09-17 23:48:56",
+      "latest_app_date": "2025-09-17 23:48:56"
+    },
+    {
+      "platform_name": "bolt.new",
+      "total_apps": 0,
+      "apps_last_30_days": 0,
+      "apps_last_7_days": 0,
+      "first_app_date": null,
+      "latest_app_date": null
+    },
+    {
+      "platform_name": "claude.ai",
+      "total_apps": 0,
+      "apps_last_30_days": 0,
+      "apps_last_7_days": 0,
+      "first_app_date": null,
+      "latest_app_date": null
+    },
+    {
+      "platform_name": "figma.com",
+      "total_apps": 0,
+      "apps_last_30_days": 0,
+      "apps_last_7_days": 0,
+      "first_app_date": null,
+      "latest_app_date": null
+    },
+    {
+      "platform_name": "gemini.ai",
+      "total_apps": 0,
+      "apps_last_30_days": 0,
+      "apps_last_7_days": 0,
+      "first_app_date": null,
+      "latest_app_date": null
+    },
+    {
+      "platform_name": "jules.google.com",
+      "total_apps": 0,
+      "apps_last_30_days": 0,
+      "apps_last_7_days": 0,
+      "first_app_date": null,
+      "latest_app_date": null
+    },
+    {
+      "platform_name": "lovable.dev",
+      "total_apps": 0,
+      "apps_last_30_days": 0,
+      "apps_last_7_days": 0,
+      "first_app_date": null,
+      "latest_app_date": null
+    },
+    {
+      "platform_name": "replit.com",
+      "total_apps": 0,
+      "apps_last_30_days": 0,
+      "apps_last_7_days": 0,
+      "first_app_date": null,
+      "latest_app_date": null
+    },
+    {
+      "platform_name": "stitch.google.com",
+      "total_apps": 0,
+      "apps_last_30_days": 0,
+      "apps_last_7_days": 0,
+      "first_app_date": null,
+      "latest_app_date": null
+    },
+    {
+      "platform_name": "subframe.com",
+      "total_apps": 0,
+      "apps_last_30_days": 0,
+      "apps_last_7_days": 0,
+      "first_app_date": null,
+      "latest_app_date": null
+    }
+  ],
+  "ai_tool_statistics": [
+    {
+      "ai_tool_name": "v0",
+      "category": "code_generator",
+      "provider": "Vercel",
+      "apps_using_tool": 1964,
+      "avg_confidence": 1.0,
+      "high_confidence_apps": 1964
+    },
+    {
+      "ai_tool_name": "AI Agents",
+      "category": null,
+      "provider": null,
+      "apps_using_tool": 30,
+      "avg_confidence": 0.8,
+      "high_confidence_apps": 30
+    },
+    {
+      "ai_tool_name": "Claude",
+      "category": "llm",
+      "provider": "Anthropic",
+      "apps_using_tool": 30,
+      "avg_confidence": 0.8,
+      "high_confidence_apps": 30
+    },
+    {
+      "ai_tool_name": "Gemini",
+      "category": "llm",
+      "provider": "Google",
+      "apps_using_tool": 27,
+      "avg_confidence": 0.8,
+      "high_confidence_apps": 27
+    },
+    {
+      "ai_tool_name": "Bolt",
+      "category": "ide",
+      "provider": "StackBlitz",
+      "apps_using_tool": 0,
+      "avg_confidence": null,
+      "high_confidence_apps": 0
+    },
+    {
+      "ai_tool_name": "Figma Make",
+      "category": "generator",
+      "provider": "Figma",
+      "apps_using_tool": 0,
+      "avg_confidence": null,
+      "high_confidence_apps": 0
+    },
+    {
+      "ai_tool_name": "GPT-4",
+      "category": "llm",
+      "provider": "OpenAI",
+      "apps_using_tool": 0,
+      "avg_confidence": null,
+      "high_confidence_apps": 0
+    },
+    {
+      "ai_tool_name": "Jules",
+      "category": "assistant",
+      "provider": "Google",
+      "apps_using_tool": 0,
+      "avg_confidence": null,
+      "high_confidence_apps": 0
+    },
+    {
+      "ai_tool_name": "Lovable",
+      "category": "platform",
+      "provider": "Lovable",
+      "apps_using_tool": 0,
+      "avg_confidence": null,
+      "high_confidence_apps": 0
+    },
+    {
+      "ai_tool_name": "Replit Agent",
+      "category": "assistant",
+      "provider": "Replit",
+      "apps_using_tool": 0,
+      "avg_confidence": null,
+      "high_confidence_apps": 0
+    },
+    {
+      "ai_tool_name": "Stitch",
+      "category": "tool",
+      "provider": "Google",
+      "apps_using_tool": 0,
+      "avg_confidence": null,
+      "high_confidence_apps": 0
+    }
+  ],
+  "github_statistics": [
+    {
+      "language": null,
+      "repo_count": 87,
+      "avg_stars": 0.0,
+      "avg_forks": 0.0,
+      "total_stars": 0,
+      "total_forks": 0
+    }
+  ]
+}
