@@ -1,31 +1,60 @@
-# Working vs Blocked Scrapers
+# Scraper Status and Data Quality Assessment
 
-## ✅ **WORKING SCRAPERS**
+## ✅ **High-Quality Vibe Coding Sources** (2,051 authentic apps)
 
-### 1. Bolt Supabase Scraper (`bolt_supabase_scraper.py`)
-- **Status**: ✅ WORKING - 1,227 projects collected
+### **Tier 1: Pure Vibe Coding (Prompt → App)**
+
+#### 1. v0.dev Community (`v0_community_scraper.py`)
+- **Status**: ✅ COMPLETE - 1,964 projects collected
+- **Quality**: ⭐⭐⭐⭐⭐ Pure vibe coding (prompt → UI components)
+- **Method**: Manual collection from v0.dev community showcase
+- **Data**: UI components generated from natural language prompts
+- **Value**: Authentic vibe-coded applications
+
+#### 2. Bolt Supabase Scraper (`bolt_supabase_scraper.py`)
+- **Status**: 🔄 PARTIAL - 87 of 1,227 projects collected  
+- **Quality**: ⭐⭐⭐⭐⭐ Pure vibe coding (prompt → full-stack apps)
 - **Method**: Direct Supabase API access with bearer token
-- **Data Quality**: High - full project metadata, descriptions, creation dates
-- **Rate Limits**: Handled via pagination (100 items per request)
-- **Output**: `bolt_gallery_projects.json`
+- **Priority**: 🔥 HIGH - Expand to collect remaining 1,140 projects
+- **Value**: Complete applications from text descriptions
 
-### 2. Lovable Community Scraper (`lovable_scraper.py`) 
-- **Status**: ✅ WORKING - 99 projects collected
-- **Method**: Community API with cursor-based pagination
-- **Data Quality**: High - project titles, authors, descriptions, thumbnails
-- **Rate Limits**: Cursor pagination, respectful delays
-- **Output**: `lovable_community_projects.json`
-
-### 3. Jules PR Scraper (`jules_pr_scraper.py`)
-- **Status**: ✅ WORKING - 1,000 of 26,945 PRs collected
-- **Method**: GitHub API search for google-labs-jules[bot] PRs
-- **Data Quality**: Medium - PR metadata, repository links
-- **Rate Limits**: GitHub API limits, collected 1,000 to avoid hitting limits
-- **Output**: `jules_github_prs.json`
+#### 3. Lovable Community Scraper (`lovable_scraper.py`)
+- **Status**: ❌ TODO - 0 of 99 projects collected
+- **Quality**: ⭐⭐⭐⭐⭐ Pure vibe coding (prompt → web apps)  
+- **Method**: Community API with cursor-based pagination (script ready)
+- **Priority**: 🔥 HIGH - Collect all 99 prompt-to-app projects
+- **Value**: Complete web applications from natural language
 
 ---
 
-## 🚫 **BLOCKED SCRAPERS (TODO)**
+## 🔬 **Research/Experimental Sources** (793 entries - mixed quality)
+
+### **Tier 2: Agentic Development**
+
+#### 4. Jules PR Scraper (`jules_pr_scraper.py`)
+- **Status**: 🔄 PARTIAL - 1,000 of 26,945 PRs collected
+- **Quality**: ⭐⭐⭐ Agentic coding (not interactive vibe coding)
+- **Method**: GitHub API search for google-labs-jules[bot] PRs  
+- **Priority**: 📚 RESEARCH - Interesting for automation studies
+- **Note**: Background automation, not user-driven vibe coding
+
+### **Tier 3: AI-Assisted Development**
+
+#### 5. GitHub AGENTS.md Search (`github_enhanced_search.py`)
+- **Status**: ⏸️ PAUSED - 793 of 5,824 repositories collected
+- **Quality**: ⭐⭐ Mostly AI-assisted development, NOT vibe coding
+- **Method**: GitHub code search for AGENTS.md files
+- **Priority**: ⏸️ LOW - Limited vibe coding value discovered
+- **Issue**: Manual inspection revealed most are traditional development with AI assistance
+
+**Examples of NON-vibe coding found:**
+- `bowmanjd/nix-config` - Configuration files with AI help
+- `SonsOfPHP/filesystem` - Library development with AI assistance
+- `asleep-ai/asleep-sdk-react-native` - SDK development with AI docs
+
+---
+
+## 🚫 **BLOCKED SCRAPERS (Technical Issues)**
 
 ### 1. GitHub Enhanced Search (`github_enhanced_search.py`)
 - **Status**: 🚫 BLOCKED - 401 Authentication Error

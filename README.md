@@ -4,10 +4,15 @@ A comprehensive database of AI-generated web applications and tools collected fr
 
 ## 📊 Current Dataset (September 2025)
 
-**Total Applications**: 2,844 unique vibe-coded apps  
-**Platforms Covered**: 12 different AI coding platforms  
+**Authentic Vibe-Coded Apps**: 2,051 prompt-to-app projects  
+**Experimental/Research Data**: 793 AI-assisted repositories  
+**Total Database Entries**: 2,844 applications
 **GitHub Repositories**: 949 linked repositories  
-**Community Projects**: 1,964 community-shared projects
+
+### ⚠️ **Data Quality Note**
+- **High Quality**: v0.dev (1,964) and Bolt (87) represent true vibe coding (prompt → app)
+- **Experimental**: GitHub AGENTS.md (793) entries are mostly AI-assisted development, not pure vibe coding
+- **Priority**: Focus on Lovable, Bolt expansion, and v0.dev for authentic vibe-coded applications
 
 ## 🗂️ Data Tables (GitHub-browsable)
 
@@ -27,18 +32,21 @@ A comprehensive database of AI-generated web applications and tools collected fr
 
 ## 🚀 Data Sources
 
-### ✅ **Working Scrapers** (2,844 apps collected)
-- **GitHub AGENTS.md Search**: 793 vibe-coded repositories with AGENTS.md files
-- **v0.dev Community**: Manual collection of 1,964 community projects  
-- **Bolt Supabase API**: 87 projects from bolt.new platform
-- **Manual Platforms**: Various AI coding platforms and tools
+### ✅ **True Vibe Coding Platforms** (2,051 authentic apps)
+- **v0.dev Community**: 1,964 prompt-to-UI component projects
+- **Bolt Supabase API**: 87 prompt-to-app projects from bolt.new platform
 
-### 🔄 **TODO: Pending Authentication/Setup** (27,979+ more apps available)
-- **Bolt Supabase API**: 1,140 more projects from bolt.new platform (87 of 1,227 collected)
-- **Lovable Community API**: 99 projects from lovable.dev platform  
-- **Jules GitHub PRs**: 25,945 more PRs from google-labs-jules[bot] (1,000 of 26,945 collected)
-- **v0.dev Browser Scraping**: 44+ more community projects (2,008 estimated total)
-- **GitHub AGENTS.md**: 4,791 more repositories (1,000 of 5,824 collected)
+### 🔬 **Experimental/Research Data** (793 exploratory entries)
+- **GitHub AGENTS.md**: 793 repositories (⚠️ **mostly AI-assisted coding, not vibe coding**)
+
+### 🔄 **TODO: High-Priority Vibe Coding Platforms**
+- **Lovable Platform**: 99 prompt-to-app projects (lovable.dev)
+- **Bolt Expansion**: 1,140 more prompt-to-app projects 
+- **v0.dev Browser**: Chrome setup needed for additional UI components
+
+### 🔄 **TODO: Experimental/Agentic Platforms**  
+- **Jules GitHub PRs**: 25,945 agentic PRs (background automation)
+- **GitHub AGENTS.md**: 4,791 more repos (limited vibe coding value)
 
 ## 🛠️ Repository Structure
 
