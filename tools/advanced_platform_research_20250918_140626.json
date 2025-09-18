@@ -1,0 +1,1442 @@
+{
+  "replit": {
+    "platform_info": {
+      "base_url": "https://replit.com",
+      "name": "Replit",
+      "focus": "Community coding projects and templates"
+    },
+    "discovered_endpoints": [
+      {
+        "url": "https://replit.com/api/projects",
+        "source": "common_pattern",
+        "type": "api_endpoint"
+      },
+      {
+        "url": "https://replit.com/api/v1/projects",
+        "source": "common_pattern",
+        "type": "api_endpoint"
+      },
+      {
+        "url": "https://replit.com/api/v2/projects",
+        "source": "common_pattern",
+        "type": "api_endpoint"
+      },
+      {
+        "url": "https://replit.com/api/gallery",
+        "source": "common_pattern",
+        "type": "api_endpoint"
+      },
+      {
+        "url": "https://replit.com/api/v1/gallery",
+        "source": "common_pattern",
+        "type": "api_endpoint"
+      },
+      {
+        "url": "https://replit.com/api/showcase",
+        "source": "common_pattern",
+        "type": "api_endpoint"
+      },
+      {
+        "url": "https://replit.com/api/templates",
+        "source": "common_pattern",
+        "type": "api_endpoint"
+      },
+      {
+        "url": "https://replit.com/api/v1/templates",
+        "source": "common_pattern",
+        "type": "api_endpoint"
+      },
+      {
+        "url": "https://replit.com/api/community",
+        "source": "common_pattern",
+        "type": "api_endpoint"
+      },
+      {
+        "url": "https://replit.com/api/public/projects",
+        "source": "common_pattern",
+        "type": "api_endpoint"
+      },
+      {
+        "url": "https://replit.com/api/public/gallery",
+        "source": "common_pattern",
+        "type": "api_endpoint"
+      },
+      {
+        "url": "https://replit.com/graphql",
+        "source": "common_pattern",
+        "type": "api_endpoint",
+        "response_size": 2976,
+        "content_type": "text/html; charset=utf-8",
+        "method": "GET",
+        "status": "html_page"
+      },
+      {
+        "url": "https://replit.com/api/graphql",
+        "source": "common_pattern",
+        "type": "api_endpoint"
+      },
+      {
+        "url": "https://replit.com/v1/graphql",
+        "source": "common_pattern",
+        "type": "api_endpoint"
+      },
+      {
+        "url": "https://replit.com/api/trpc/projects",
+        "source": "common_pattern",
+        "type": "api_endpoint"
+      },
+      {
+        "url": "https://replit.com/_next/data",
+        "source": "common_pattern",
+        "type": "api_endpoint"
+      },
+      {
+        "url": "https://replit.com/api/repls",
+        "source": "common_pattern",
+        "type": "api_endpoint"
+      },
+      {
+        "url": "https://replit.com/api/community/repls",
+        "source": "common_pattern",
+        "type": "api_endpoint"
+      },
+      {
+        "url": "https://replit.com/api/components",
+        "source": "common_pattern",
+        "type": "api_endpoint"
+      },
+      {
+        "url": "https://replit.com/api/templates",
+        "source": "common_pattern",
+        "type": "api_endpoint"
+      },
+      {
+        "url": "https://replit.com/api/experiments",
+        "source": "common_pattern",
+        "type": "api_endpoint"
+      },
+      {
+        "url": "https://replit.com/api/tools",
+        "source": "common_pattern",
+        "type": "api_endpoint"
+      },
+      {
+        "url": "https://replit.com/api/files",
+        "source": "common_pattern",
+        "type": "api_endpoint"
+      },
+      {
+        "url": "https://replit.com/api/community/files",
+        "source": "common_pattern",
+        "type": "api_endpoint"
+      },
+      {
+        "url": "https://replit.com/graphql",
+        "source": "graphql_check",
+        "type": "graphql_endpoint",
+        "response_size": 2976,
+        "content_type": "text/html; charset=utf-8",
+        "method": "GET",
+        "status": "html_page"
+      },
+      {
+        "url": "https://replit.com/api/graphql",
+        "source": "graphql_check",
+        "type": "graphql_endpoint",
+        "status": "auth_required",
+        "status_code": 403
+      },
+      {
+        "url": "https://replit.com/v1/graphql",
+        "source": "graphql_check",
+        "type": "graphql_endpoint",
+        "status": "auth_required",
+        "status_code": 403
+      },
+      {
+        "url": "https://replit.com/graph",
+        "source": "graphql_check",
+        "type": "graphql_endpoint",
+        "status": "auth_required",
+        "status_code": 403
+      }
+    ],
+    "working_endpoints": [
+      {
+        "url": "https://replit.com/graphql",
+        "source": "common_pattern",
+        "type": "api_endpoint",
+        "response_size": 2976,
+        "content_type": "text/html; charset=utf-8",
+        "method": "GET",
+        "status": "html_page"
+      },
+      {
+        "url": "https://replit.com/graphql",
+        "source": "graphql_check",
+        "type": "graphql_endpoint",
+        "response_size": 2976,
+        "content_type": "text/html; charset=utf-8",
+        "method": "GET",
+        "status": "html_page"
+      },
+      {
+        "url": "https://replit.com/api/graphql",
+        "source": "graphql_check",
+        "type": "graphql_endpoint",
+        "status": "auth_required",
+        "status_code": 403
+      },
+      {
+        "url": "https://replit.com/v1/graphql",
+        "source": "graphql_check",
+        "type": "graphql_endpoint",
+        "status": "auth_required",
+        "status_code": 403
+      },
+      {
+        "url": "https://replit.com/graph",
+        "source": "graphql_check",
+        "type": "graphql_endpoint",
+        "status": "auth_required",
+        "status_code": 403
+      }
+    ],
+    "analysis": {
+      "platform": "Replit",
+      "total_endpoints_tested": 5,
+      "api_endpoints": [],
+      "html_pages": [
+        {
+          "url": "https://replit.com/graphql",
+          "source": "common_pattern",
+          "type": "api_endpoint",
+          "response_size": 2976,
+          "content_type": "text/html; charset=utf-8",
+          "method": "GET",
+          "status": "html_page"
+        },
+        {
+          "url": "https://replit.com/graphql",
+          "source": "graphql_check",
+          "type": "graphql_endpoint",
+          "response_size": 2976,
+          "content_type": "text/html; charset=utf-8",
+          "method": "GET",
+          "status": "html_page"
+        }
+      ],
+      "auth_required": [
+        {
+          "url": "https://replit.com/api/graphql",
+          "source": "graphql_check",
+          "type": "graphql_endpoint",
+          "status": "auth_required",
+          "status_code": 403
+        },
+        {
+          "url": "https://replit.com/v1/graphql",
+          "source": "graphql_check",
+          "type": "graphql_endpoint",
+          "status": "auth_required",
+          "status_code": 403
+        },
+        {
+          "url": "https://replit.com/graph",
+          "source": "graphql_check",
+          "type": "graphql_endpoint",
+          "status": "auth_required",
+          "status_code": 403
+        }
+      ],
+      "recommendations": [
+        "Web scraping required - use BeautifulSoup/Selenium",
+        "Authentication needed - investigate OAuth/API keys"
+      ]
+    },
+    "timestamp": "2025-09-18T14:06:47.821634"
+  },
+  "subframe": {
+    "platform_info": {
+      "base_url": "https://subframe.com",
+      "name": "Subframe",
+      "focus": "React component library and visual development"
+    },
+    "discovered_endpoints": [
+      {
+        "url": "https://subframe.com/api/projects",
+        "source": "common_pattern",
+        "type": "api_endpoint"
+      },
+      {
+        "url": "https://subframe.com/api/v1/projects",
+        "source": "common_pattern",
+        "type": "api_endpoint"
+      },
+      {
+        "url": "https://subframe.com/api/v2/projects",
+        "source": "common_pattern",
+        "type": "api_endpoint"
+      },
+      {
+        "url": "https://subframe.com/api/gallery",
+        "source": "common_pattern",
+        "type": "api_endpoint"
+      },
+      {
+        "url": "https://subframe.com/api/v1/gallery",
+        "source": "common_pattern",
+        "type": "api_endpoint"
+      },
+      {
+        "url": "https://subframe.com/api/showcase",
+        "source": "common_pattern",
+        "type": "api_endpoint"
+      },
+      {
+        "url": "https://subframe.com/api/templates",
+        "source": "common_pattern",
+        "type": "api_endpoint"
+      },
+      {
+        "url": "https://subframe.com/api/v1/templates",
+        "source": "common_pattern",
+        "type": "api_endpoint"
+      },
+      {
+        "url": "https://subframe.com/api/community",
+        "source": "common_pattern",
+        "type": "api_endpoint"
+      },
+      {
+        "url": "https://subframe.com/api/public/projects",
+        "source": "common_pattern",
+        "type": "api_endpoint"
+      },
+      {
+        "url": "https://subframe.com/api/public/gallery",
+        "source": "common_pattern",
+        "type": "api_endpoint"
+      },
+      {
+        "url": "https://subframe.com/graphql",
+        "source": "common_pattern",
+        "type": "api_endpoint"
+      },
+      {
+        "url": "https://subframe.com/api/graphql",
+        "source": "common_pattern",
+        "type": "api_endpoint"
+      },
+      {
+        "url": "https://subframe.com/v1/graphql",
+        "source": "common_pattern",
+        "type": "api_endpoint"
+      },
+      {
+        "url": "https://subframe.com/api/trpc/projects",
+        "source": "common_pattern",
+        "type": "api_endpoint"
+      },
+      {
+        "url": "https://subframe.com/_next/data",
+        "source": "common_pattern",
+        "type": "api_endpoint"
+      },
+      {
+        "url": "https://subframe.com/api/repls",
+        "source": "common_pattern",
+        "type": "api_endpoint"
+      },
+      {
+        "url": "https://subframe.com/api/community/repls",
+        "source": "common_pattern",
+        "type": "api_endpoint"
+      },
+      {
+        "url": "https://subframe.com/api/components",
+        "source": "common_pattern",
+        "type": "api_endpoint"
+      },
+      {
+        "url": "https://subframe.com/api/templates",
+        "source": "common_pattern",
+        "type": "api_endpoint"
+      },
+      {
+        "url": "https://subframe.com/api/experiments",
+        "source": "common_pattern",
+        "type": "api_endpoint"
+      },
+      {
+        "url": "https://subframe.com/api/tools",
+        "source": "common_pattern",
+        "type": "api_endpoint"
+      },
+      {
+        "url": "https://subframe.com/api/files",
+        "source": "common_pattern",
+        "type": "api_endpoint"
+      },
+      {
+        "url": "https://subframe.com/api/community/files",
+        "source": "common_pattern",
+        "type": "api_endpoint"
+      },
+      {
+        "url": "https://subframe.com/graphql",
+        "source": "graphql_check",
+        "type": "graphql_endpoint"
+      },
+      {
+        "url": "https://subframe.com/api/graphql",
+        "source": "graphql_check",
+        "type": "graphql_endpoint"
+      },
+      {
+        "url": "https://subframe.com/v1/graphql",
+        "source": "graphql_check",
+        "type": "graphql_endpoint"
+      },
+      {
+        "url": "https://subframe.com/graph",
+        "source": "graphql_check",
+        "type": "graphql_endpoint"
+      }
+    ],
+    "working_endpoints": [],
+    "analysis": {
+      "platform": "Subframe",
+      "total_endpoints_tested": 0,
+      "api_endpoints": [],
+      "html_pages": [],
+      "auth_required": [],
+      "recommendations": [
+        "Platform may be private or use non-standard endpoints"
+      ]
+    },
+    "timestamp": "2025-09-18T14:07:10.508182"
+  },
+  "stitch": {
+    "platform_info": {
+      "base_url": "https://stitch.withgoogle.com",
+      "name": "Google Stitch",
+      "focus": "Google development tools and integrations"
+    },
+    "discovered_endpoints": [
+      {
+        "url": "https://stitch.withgoogle.com/api/projects",
+        "source": "common_pattern",
+        "type": "api_endpoint",
+        "response_size": 19050,
+        "content_type": "text/html; charset=utf-8",
+        "method": "GET",
+        "status": "html_page"
+      },
+      {
+        "url": "https://stitch.withgoogle.com/api/v1/projects",
+        "source": "common_pattern",
+        "type": "api_endpoint",
+        "response_size": 19063,
+        "content_type": "text/html; charset=utf-8",
+        "method": "GET",
+        "status": "html_page"
+      },
+      {
+        "url": "https://stitch.withgoogle.com/api/v2/projects",
+        "source": "common_pattern",
+        "type": "api_endpoint",
+        "response_size": 19062,
+        "content_type": "text/html; charset=utf-8",
+        "method": "GET",
+        "status": "html_page"
+      },
+      {
+        "url": "https://stitch.withgoogle.com/api/gallery",
+        "source": "common_pattern",
+        "type": "api_endpoint",
+        "response_size": 19046,
+        "content_type": "text/html; charset=utf-8",
+        "method": "GET",
+        "status": "html_page"
+      },
+      {
+        "url": "https://stitch.withgoogle.com/api/v1/gallery",
+        "source": "common_pattern",
+        "type": "api_endpoint",
+        "response_size": 19059,
+        "content_type": "text/html; charset=utf-8",
+        "method": "GET",
+        "status": "html_page"
+      },
+      {
+        "url": "https://stitch.withgoogle.com/api/showcase",
+        "source": "common_pattern",
+        "type": "api_endpoint",
+        "response_size": 19051,
+        "content_type": "text/html; charset=utf-8",
+        "method": "GET",
+        "status": "html_page"
+      },
+      {
+        "url": "https://stitch.withgoogle.com/api/templates",
+        "source": "common_pattern",
+        "type": "api_endpoint",
+        "response_size": 19054,
+        "content_type": "text/html; charset=utf-8",
+        "method": "GET",
+        "status": "html_page"
+      },
+      {
+        "url": "https://stitch.withgoogle.com/api/v1/templates",
+        "source": "common_pattern",
+        "type": "api_endpoint",
+        "response_size": 19066,
+        "content_type": "text/html; charset=utf-8",
+        "method": "GET",
+        "status": "html_page"
+      },
+      {
+        "url": "https://stitch.withgoogle.com/api/community",
+        "source": "common_pattern",
+        "type": "api_endpoint",
+        "response_size": 19054,
+        "content_type": "text/html; charset=utf-8",
+        "method": "GET",
+        "status": "html_page"
+      },
+      {
+        "url": "https://stitch.withgoogle.com/api/public/projects",
+        "source": "common_pattern",
+        "type": "api_endpoint",
+        "response_size": 19078,
+        "content_type": "text/html; charset=utf-8",
+        "method": "GET",
+        "status": "html_page"
+      },
+      {
+        "url": "https://stitch.withgoogle.com/api/public/gallery",
+        "source": "common_pattern",
+        "type": "api_endpoint",
+        "response_size": 19074,
+        "content_type": "text/html; charset=utf-8",
+        "method": "GET",
+        "status": "html_page"
+      },
+      {
+        "url": "https://stitch.withgoogle.com/graphql",
+        "source": "common_pattern",
+        "type": "api_endpoint",
+        "response_size": 19031,
+        "content_type": "text/html; charset=utf-8",
+        "method": "GET",
+        "status": "html_page"
+      },
+      {
+        "url": "https://stitch.withgoogle.com/api/graphql",
+        "source": "common_pattern",
+        "type": "api_endpoint",
+        "response_size": 19046,
+        "content_type": "text/html; charset=utf-8",
+        "method": "GET",
+        "status": "html_page"
+      },
+      {
+        "url": "https://stitch.withgoogle.com/v1/graphql",
+        "source": "common_pattern",
+        "type": "api_endpoint",
+        "response_size": 19042,
+        "content_type": "text/html; charset=utf-8",
+        "method": "GET",
+        "status": "html_page"
+      },
+      {
+        "url": "https://stitch.withgoogle.com/api/trpc/projects",
+        "source": "common_pattern",
+        "type": "api_endpoint",
+        "response_size": 19070,
+        "content_type": "text/html; charset=utf-8",
+        "method": "GET",
+        "status": "html_page"
+      },
+      {
+        "url": "https://stitch.withgoogle.com/_next/data",
+        "source": "common_pattern",
+        "type": "api_endpoint",
+        "response_size": 19043,
+        "content_type": "text/html; charset=utf-8",
+        "method": "GET",
+        "status": "html_page"
+      },
+      {
+        "url": "https://stitch.withgoogle.com/api/repls",
+        "source": "common_pattern",
+        "type": "api_endpoint",
+        "response_size": 19038,
+        "content_type": "text/html; charset=utf-8",
+        "method": "GET",
+        "status": "html_page"
+      },
+      {
+        "url": "https://stitch.withgoogle.com/api/community/repls",
+        "source": "common_pattern",
+        "type": "api_endpoint",
+        "response_size": 19078,
+        "content_type": "text/html; charset=utf-8",
+        "method": "GET",
+        "status": "html_page"
+      },
+      {
+        "url": "https://stitch.withgoogle.com/api/components",
+        "source": "common_pattern",
+        "type": "api_endpoint",
+        "response_size": 19059,
+        "content_type": "text/html; charset=utf-8",
+        "method": "GET",
+        "status": "html_page"
+      },
+      {
+        "url": "https://stitch.withgoogle.com/api/templates",
+        "source": "common_pattern",
+        "type": "api_endpoint",
+        "response_size": 19055,
+        "content_type": "text/html; charset=utf-8",
+        "method": "GET",
+        "status": "html_page"
+      },
+      {
+        "url": "https://stitch.withgoogle.com/api/experiments",
+        "source": "common_pattern",
+        "type": "api_endpoint",
+        "response_size": 19063,
+        "content_type": "text/html; charset=utf-8",
+        "method": "GET",
+        "status": "html_page"
+      },
+      {
+        "url": "https://stitch.withgoogle.com/api/tools",
+        "source": "common_pattern",
+        "type": "api_endpoint",
+        "response_size": 19038,
+        "content_type": "text/html; charset=utf-8",
+        "method": "GET",
+        "status": "html_page"
+      },
+      {
+        "url": "https://stitch.withgoogle.com/api/files",
+        "source": "common_pattern",
+        "type": "api_endpoint",
+        "response_size": 19038,
+        "content_type": "text/html; charset=utf-8",
+        "method": "GET",
+        "status": "html_page"
+      },
+      {
+        "url": "https://stitch.withgoogle.com/api/community/files",
+        "source": "common_pattern",
+        "type": "api_endpoint",
+        "response_size": 19079,
+        "content_type": "text/html; charset=utf-8",
+        "method": "GET",
+        "status": "html_page"
+      },
+      {
+        "url": "https://stitch.withgoogle.com/graphql",
+        "source": "graphql_check",
+        "type": "graphql_endpoint",
+        "response_size": 19030,
+        "content_type": "text/html; charset=utf-8",
+        "method": "GET",
+        "status": "html_page"
+      },
+      {
+        "url": "https://stitch.withgoogle.com/api/graphql",
+        "source": "graphql_check",
+        "type": "graphql_endpoint",
+        "response_size": 19046,
+        "content_type": "text/html; charset=utf-8",
+        "method": "GET",
+        "status": "html_page"
+      },
+      {
+        "url": "https://stitch.withgoogle.com/v1/graphql",
+        "source": "graphql_check",
+        "type": "graphql_endpoint",
+        "response_size": 19042,
+        "content_type": "text/html; charset=utf-8",
+        "method": "GET",
+        "status": "html_page"
+      },
+      {
+        "url": "https://stitch.withgoogle.com/graph",
+        "source": "graphql_check",
+        "type": "graphql_endpoint",
+        "response_size": 19022,
+        "content_type": "text/html; charset=utf-8",
+        "method": "GET",
+        "status": "html_page"
+      }
+    ],
+    "working_endpoints": [
+      {
+        "url": "https://stitch.withgoogle.com/api/projects",
+        "source": "common_pattern",
+        "type": "api_endpoint",
+        "response_size": 19050,
+        "content_type": "text/html; charset=utf-8",
+        "method": "GET",
+        "status": "html_page"
+      },
+      {
+        "url": "https://stitch.withgoogle.com/api/v1/projects",
+        "source": "common_pattern",
+        "type": "api_endpoint",
+        "response_size": 19063,
+        "content_type": "text/html; charset=utf-8",
+        "method": "GET",
+        "status": "html_page"
+      },
+      {
+        "url": "https://stitch.withgoogle.com/api/v2/projects",
+        "source": "common_pattern",
+        "type": "api_endpoint",
+        "response_size": 19062,
+        "content_type": "text/html; charset=utf-8",
+        "method": "GET",
+        "status": "html_page"
+      },
+      {
+        "url": "https://stitch.withgoogle.com/api/gallery",
+        "source": "common_pattern",
+        "type": "api_endpoint",
+        "response_size": 19046,
+        "content_type": "text/html; charset=utf-8",
+        "method": "GET",
+        "status": "html_page"
+      },
+      {
+        "url": "https://stitch.withgoogle.com/api/v1/gallery",
+        "source": "common_pattern",
+        "type": "api_endpoint",
+        "response_size": 19059,
+        "content_type": "text/html; charset=utf-8",
+        "method": "GET",
+        "status": "html_page"
+      },
+      {
+        "url": "https://stitch.withgoogle.com/api/showcase",
+        "source": "common_pattern",
+        "type": "api_endpoint",
+        "response_size": 19051,
+        "content_type": "text/html; charset=utf-8",
+        "method": "GET",
+        "status": "html_page"
+      },
+      {
+        "url": "https://stitch.withgoogle.com/api/templates",
+        "source": "common_pattern",
+        "type": "api_endpoint",
+        "response_size": 19054,
+        "content_type": "text/html; charset=utf-8",
+        "method": "GET",
+        "status": "html_page"
+      },
+      {
+        "url": "https://stitch.withgoogle.com/api/v1/templates",
+        "source": "common_pattern",
+        "type": "api_endpoint",
+        "response_size": 19066,
+        "content_type": "text/html; charset=utf-8",
+        "method": "GET",
+        "status": "html_page"
+      },
+      {
+        "url": "https://stitch.withgoogle.com/api/community",
+        "source": "common_pattern",
+        "type": "api_endpoint",
+        "response_size": 19054,
+        "content_type": "text/html; charset=utf-8",
+        "method": "GET",
+        "status": "html_page"
+      },
+      {
+        "url": "https://stitch.withgoogle.com/api/public/projects",
+        "source": "common_pattern",
+        "type": "api_endpoint",
+        "response_size": 19078,
+        "content_type": "text/html; charset=utf-8",
+        "method": "GET",
+        "status": "html_page"
+      },
+      {
+        "url": "https://stitch.withgoogle.com/api/public/gallery",
+        "source": "common_pattern",
+        "type": "api_endpoint",
+        "response_size": 19074,
+        "content_type": "text/html; charset=utf-8",
+        "method": "GET",
+        "status": "html_page"
+      },
+      {
+        "url": "https://stitch.withgoogle.com/graphql",
+        "source": "common_pattern",
+        "type": "api_endpoint",
+        "response_size": 19031,
+        "content_type": "text/html; charset=utf-8",
+        "method": "GET",
+        "status": "html_page"
+      },
+      {
+        "url": "https://stitch.withgoogle.com/api/graphql",
+        "source": "common_pattern",
+        "type": "api_endpoint",
+        "response_size": 19046,
+        "content_type": "text/html; charset=utf-8",
+        "method": "GET",
+        "status": "html_page"
+      },
+      {
+        "url": "https://stitch.withgoogle.com/v1/graphql",
+        "source": "common_pattern",
+        "type": "api_endpoint",
+        "response_size": 19042,
+        "content_type": "text/html; charset=utf-8",
+        "method": "GET",
+        "status": "html_page"
+      },
+      {
+        "url": "https://stitch.withgoogle.com/api/trpc/projects",
+        "source": "common_pattern",
+        "type": "api_endpoint",
+        "response_size": 19070,
+        "content_type": "text/html; charset=utf-8",
+        "method": "GET",
+        "status": "html_page"
+      },
+      {
+        "url": "https://stitch.withgoogle.com/_next/data",
+        "source": "common_pattern",
+        "type": "api_endpoint",
+        "response_size": 19043,
+        "content_type": "text/html; charset=utf-8",
+        "method": "GET",
+        "status": "html_page"
+      },
+      {
+        "url": "https://stitch.withgoogle.com/api/repls",
+        "source": "common_pattern",
+        "type": "api_endpoint",
+        "response_size": 19038,
+        "content_type": "text/html; charset=utf-8",
+        "method": "GET",
+        "status": "html_page"
+      },
+      {
+        "url": "https://stitch.withgoogle.com/api/community/repls",
+        "source": "common_pattern",
+        "type": "api_endpoint",
+        "response_size": 19078,
+        "content_type": "text/html; charset=utf-8",
+        "method": "GET",
+        "status": "html_page"
+      },
+      {
+        "url": "https://stitch.withgoogle.com/api/components",
+        "source": "common_pattern",
+        "type": "api_endpoint",
+        "response_size": 19059,
+        "content_type": "text/html; charset=utf-8",
+        "method": "GET",
+        "status": "html_page"
+      },
+      {
+        "url": "https://stitch.withgoogle.com/api/templates",
+        "source": "common_pattern",
+        "type": "api_endpoint",
+        "response_size": 19055,
+        "content_type": "text/html; charset=utf-8",
+        "method": "GET",
+        "status": "html_page"
+      },
+      {
+        "url": "https://stitch.withgoogle.com/api/experiments",
+        "source": "common_pattern",
+        "type": "api_endpoint",
+        "response_size": 19063,
+        "content_type": "text/html; charset=utf-8",
+        "method": "GET",
+        "status": "html_page"
+      },
+      {
+        "url": "https://stitch.withgoogle.com/api/tools",
+        "source": "common_pattern",
+        "type": "api_endpoint",
+        "response_size": 19038,
+        "content_type": "text/html; charset=utf-8",
+        "method": "GET",
+        "status": "html_page"
+      },
+      {
+        "url": "https://stitch.withgoogle.com/api/files",
+        "source": "common_pattern",
+        "type": "api_endpoint",
+        "response_size": 19038,
+        "content_type": "text/html; charset=utf-8",
+        "method": "GET",
+        "status": "html_page"
+      },
+      {
+        "url": "https://stitch.withgoogle.com/api/community/files",
+        "source": "common_pattern",
+        "type": "api_endpoint",
+        "response_size": 19079,
+        "content_type": "text/html; charset=utf-8",
+        "method": "GET",
+        "status": "html_page"
+      },
+      {
+        "url": "https://stitch.withgoogle.com/graphql",
+        "source": "graphql_check",
+        "type": "graphql_endpoint",
+        "response_size": 19030,
+        "content_type": "text/html; charset=utf-8",
+        "method": "GET",
+        "status": "html_page"
+      },
+      {
+        "url": "https://stitch.withgoogle.com/api/graphql",
+        "source": "graphql_check",
+        "type": "graphql_endpoint",
+        "response_size": 19046,
+        "content_type": "text/html; charset=utf-8",
+        "method": "GET",
+        "status": "html_page"
+      },
+      {
+        "url": "https://stitch.withgoogle.com/v1/graphql",
+        "source": "graphql_check",
+        "type": "graphql_endpoint",
+        "response_size": 19042,
+        "content_type": "text/html; charset=utf-8",
+        "method": "GET",
+        "status": "html_page"
+      },
+      {
+        "url": "https://stitch.withgoogle.com/graph",
+        "source": "graphql_check",
+        "type": "graphql_endpoint",
+        "response_size": 19022,
+        "content_type": "text/html; charset=utf-8",
+        "method": "GET",
+        "status": "html_page"
+      }
+    ],
+    "analysis": {
+      "platform": "Google Stitch",
+      "total_endpoints_tested": 28,
+      "api_endpoints": [],
+      "html_pages": [
+        {
+          "url": "https://stitch.withgoogle.com/api/projects",
+          "source": "common_pattern",
+          "type": "api_endpoint",
+          "response_size": 19050,
+          "content_type": "text/html; charset=utf-8",
+          "method": "GET",
+          "status": "html_page"
+        },
+        {
+          "url": "https://stitch.withgoogle.com/api/v1/projects",
+          "source": "common_pattern",
+          "type": "api_endpoint",
+          "response_size": 19063,
+          "content_type": "text/html; charset=utf-8",
+          "method": "GET",
+          "status": "html_page"
+        },
+        {
+          "url": "https://stitch.withgoogle.com/api/v2/projects",
+          "source": "common_pattern",
+          "type": "api_endpoint",
+          "response_size": 19062,
+          "content_type": "text/html; charset=utf-8",
+          "method": "GET",
+          "status": "html_page"
+        },
+        {
+          "url": "https://stitch.withgoogle.com/api/gallery",
+          "source": "common_pattern",
+          "type": "api_endpoint",
+          "response_size": 19046,
+          "content_type": "text/html; charset=utf-8",
+          "method": "GET",
+          "status": "html_page"
+        },
+        {
+          "url": "https://stitch.withgoogle.com/api/v1/gallery",
+          "source": "common_pattern",
+          "type": "api_endpoint",
+          "response_size": 19059,
+          "content_type": "text/html; charset=utf-8",
+          "method": "GET",
+          "status": "html_page"
+        },
+        {
+          "url": "https://stitch.withgoogle.com/api/showcase",
+          "source": "common_pattern",
+          "type": "api_endpoint",
+          "response_size": 19051,
+          "content_type": "text/html; charset=utf-8",
+          "method": "GET",
+          "status": "html_page"
+        },
+        {
+          "url": "https://stitch.withgoogle.com/api/templates",
+          "source": "common_pattern",
+          "type": "api_endpoint",
+          "response_size": 19054,
+          "content_type": "text/html; charset=utf-8",
+          "method": "GET",
+          "status": "html_page"
+        },
+        {
+          "url": "https://stitch.withgoogle.com/api/v1/templates",
+          "source": "common_pattern",
+          "type": "api_endpoint",
+          "response_size": 19066,
+          "content_type": "text/html; charset=utf-8",
+          "method": "GET",
+          "status": "html_page"
+        },
+        {
+          "url": "https://stitch.withgoogle.com/api/community",
+          "source": "common_pattern",
+          "type": "api_endpoint",
+          "response_size": 19054,
+          "content_type": "text/html; charset=utf-8",
+          "method": "GET",
+          "status": "html_page"
+        },
+        {
+          "url": "https://stitch.withgoogle.com/api/public/projects",
+          "source": "common_pattern",
+          "type": "api_endpoint",
+          "response_size": 19078,
+          "content_type": "text/html; charset=utf-8",
+          "method": "GET",
+          "status": "html_page"
+        },
+        {
+          "url": "https://stitch.withgoogle.com/api/public/gallery",
+          "source": "common_pattern",
+          "type": "api_endpoint",
+          "response_size": 19074,
+          "content_type": "text/html; charset=utf-8",
+          "method": "GET",
+          "status": "html_page"
+        },
+        {
+          "url": "https://stitch.withgoogle.com/graphql",
+          "source": "common_pattern",
+          "type": "api_endpoint",
+          "response_size": 19031,
+          "content_type": "text/html; charset=utf-8",
+          "method": "GET",
+          "status": "html_page"
+        },
+        {
+          "url": "https://stitch.withgoogle.com/api/graphql",
+          "source": "common_pattern",
+          "type": "api_endpoint",
+          "response_size": 19046,
+          "content_type": "text/html; charset=utf-8",
+          "method": "GET",
+          "status": "html_page"
+        },
+        {
+          "url": "https://stitch.withgoogle.com/v1/graphql",
+          "source": "common_pattern",
+          "type": "api_endpoint",
+          "response_size": 19042,
+          "content_type": "text/html; charset=utf-8",
+          "method": "GET",
+          "status": "html_page"
+        },
+        {
+          "url": "https://stitch.withgoogle.com/api/trpc/projects",
+          "source": "common_pattern",
+          "type": "api_endpoint",
+          "response_size": 19070,
+          "content_type": "text/html; charset=utf-8",
+          "method": "GET",
+          "status": "html_page"
+        },
+        {
+          "url": "https://stitch.withgoogle.com/_next/data",
+          "source": "common_pattern",
+          "type": "api_endpoint",
+          "response_size": 19043,
+          "content_type": "text/html; charset=utf-8",
+          "method": "GET",
+          "status": "html_page"
+        },
+        {
+          "url": "https://stitch.withgoogle.com/api/repls",
+          "source": "common_pattern",
+          "type": "api_endpoint",
+          "response_size": 19038,
+          "content_type": "text/html; charset=utf-8",
+          "method": "GET",
+          "status": "html_page"
+        },
+        {
+          "url": "https://stitch.withgoogle.com/api/community/repls",
+          "source": "common_pattern",
+          "type": "api_endpoint",
+          "response_size": 19078,
+          "content_type": "text/html; charset=utf-8",
+          "method": "GET",
+          "status": "html_page"
+        },
+        {
+          "url": "https://stitch.withgoogle.com/api/components",
+          "source": "common_pattern",
+          "type": "api_endpoint",
+          "response_size": 19059,
+          "content_type": "text/html; charset=utf-8",
+          "method": "GET",
+          "status": "html_page"
+        },
+        {
+          "url": "https://stitch.withgoogle.com/api/templates",
+          "source": "common_pattern",
+          "type": "api_endpoint",
+          "response_size": 19055,
+          "content_type": "text/html; charset=utf-8",
+          "method": "GET",
+          "status": "html_page"
+        },
+        {
+          "url": "https://stitch.withgoogle.com/api/experiments",
+          "source": "common_pattern",
+          "type": "api_endpoint",
+          "response_size": 19063,
+          "content_type": "text/html; charset=utf-8",
+          "method": "GET",
+          "status": "html_page"
+        },
+        {
+          "url": "https://stitch.withgoogle.com/api/tools",
+          "source": "common_pattern",
+          "type": "api_endpoint",
+          "response_size": 19038,
+          "content_type": "text/html; charset=utf-8",
+          "method": "GET",
+          "status": "html_page"
+        },
+        {
+          "url": "https://stitch.withgoogle.com/api/files",
+          "source": "common_pattern",
+          "type": "api_endpoint",
+          "response_size": 19038,
+          "content_type": "text/html; charset=utf-8",
+          "method": "GET",
+          "status": "html_page"
+        },
+        {
+          "url": "https://stitch.withgoogle.com/api/community/files",
+          "source": "common_pattern",
+          "type": "api_endpoint",
+          "response_size": 19079,
+          "content_type": "text/html; charset=utf-8",
+          "method": "GET",
+          "status": "html_page"
+        },
+        {
+          "url": "https://stitch.withgoogle.com/graphql",
+          "source": "graphql_check",
+          "type": "graphql_endpoint",
+          "response_size": 19030,
+          "content_type": "text/html; charset=utf-8",
+          "method": "GET",
+          "status": "html_page"
+        },
+        {
+          "url": "https://stitch.withgoogle.com/api/graphql",
+          "source": "graphql_check",
+          "type": "graphql_endpoint",
+          "response_size": 19046,
+          "content_type": "text/html; charset=utf-8",
+          "method": "GET",
+          "status": "html_page"
+        },
+        {
+          "url": "https://stitch.withgoogle.com/v1/graphql",
+          "source": "graphql_check",
+          "type": "graphql_endpoint",
+          "response_size": 19042,
+          "content_type": "text/html; charset=utf-8",
+          "method": "GET",
+          "status": "html_page"
+        },
+        {
+          "url": "https://stitch.withgoogle.com/graph",
+          "source": "graphql_check",
+          "type": "graphql_endpoint",
+          "response_size": 19022,
+          "content_type": "text/html; charset=utf-8",
+          "method": "GET",
+          "status": "html_page"
+        }
+      ],
+      "auth_required": [],
+      "recommendations": [
+        "Web scraping required - use BeautifulSoup/Selenium"
+      ]
+    },
+    "timestamp": "2025-09-18T14:07:27.141428"
+  },
+  "figma_make": {
+    "platform_info": {
+      "base_url": "https://www.figma.com",
+      "name": "Figma Make",
+      "focus": "Design-to-code generation and community"
+    },
+    "discovered_endpoints": [
+      {
+        "url": "https://www.figma.com/api/projects",
+        "source": "common_pattern",
+        "type": "api_endpoint"
+      },
+      {
+        "url": "https://www.figma.com/api/v1/projects",
+        "source": "common_pattern",
+        "type": "api_endpoint"
+      },
+      {
+        "url": "https://www.figma.com/api/v2/projects",
+        "source": "common_pattern",
+        "type": "api_endpoint"
+      },
+      {
+        "url": "https://www.figma.com/api/gallery",
+        "source": "common_pattern",
+        "type": "api_endpoint"
+      },
+      {
+        "url": "https://www.figma.com/api/v1/gallery",
+        "source": "common_pattern",
+        "type": "api_endpoint"
+      },
+      {
+        "url": "https://www.figma.com/api/showcase",
+        "source": "common_pattern",
+        "type": "api_endpoint"
+      },
+      {
+        "url": "https://www.figma.com/api/templates",
+        "source": "common_pattern",
+        "type": "api_endpoint",
+        "status": "auth_required",
+        "status_code": 401
+      },
+      {
+        "url": "https://www.figma.com/api/v1/templates",
+        "source": "common_pattern",
+        "type": "api_endpoint"
+      },
+      {
+        "url": "https://www.figma.com/api/community",
+        "source": "common_pattern",
+        "type": "api_endpoint"
+      },
+      {
+        "url": "https://www.figma.com/api/public/projects",
+        "source": "common_pattern",
+        "type": "api_endpoint"
+      },
+      {
+        "url": "https://www.figma.com/api/public/gallery",
+        "source": "common_pattern",
+        "type": "api_endpoint"
+      },
+      {
+        "url": "https://www.figma.com/graphql",
+        "source": "common_pattern",
+        "type": "api_endpoint"
+      },
+      {
+        "url": "https://www.figma.com/api/graphql",
+        "source": "common_pattern",
+        "type": "api_endpoint"
+      },
+      {
+        "url": "https://www.figma.com/v1/graphql",
+        "source": "common_pattern",
+        "type": "api_endpoint"
+      },
+      {
+        "url": "https://www.figma.com/api/trpc/projects",
+        "source": "common_pattern",
+        "type": "api_endpoint"
+      },
+      {
+        "url": "https://www.figma.com/_next/data",
+        "source": "common_pattern",
+        "type": "api_endpoint"
+      },
+      {
+        "url": "https://www.figma.com/api/repls",
+        "source": "common_pattern",
+        "type": "api_endpoint"
+      },
+      {
+        "url": "https://www.figma.com/api/community/repls",
+        "source": "common_pattern",
+        "type": "api_endpoint"
+      },
+      {
+        "url": "https://www.figma.com/api/components",
+        "source": "common_pattern",
+        "type": "api_endpoint"
+      },
+      {
+        "url": "https://www.figma.com/api/templates",
+        "source": "common_pattern",
+        "type": "api_endpoint",
+        "status": "auth_required",
+        "status_code": 401
+      },
+      {
+        "url": "https://www.figma.com/api/experiments",
+        "source": "common_pattern",
+        "type": "api_endpoint"
+      },
+      {
+        "url": "https://www.figma.com/api/tools",
+        "source": "common_pattern",
+        "type": "api_endpoint"
+      },
+      {
+        "url": "https://www.figma.com/api/files",
+        "source": "common_pattern",
+        "type": "api_endpoint"
+      },
+      {
+        "url": "https://www.figma.com/api/community/files",
+        "source": "common_pattern",
+        "type": "api_endpoint"
+      },
+      {
+        "url": "https://www.figma.com/graphql",
+        "source": "graphql_check",
+        "type": "graphql_endpoint",
+        "status": "auth_required",
+        "status_code": 403
+      },
+      {
+        "url": "https://www.figma.com/api/graphql",
+        "source": "graphql_check",
+        "type": "graphql_endpoint"
+      },
+      {
+        "url": "https://www.figma.com/v1/graphql",
+        "source": "graphql_check",
+        "type": "graphql_endpoint",
+        "status": "auth_required",
+        "status_code": 403
+      },
+      {
+        "url": "https://www.figma.com/graph",
+        "source": "graphql_check",
+        "type": "graphql_endpoint",
+        "status": "auth_required",
+        "status_code": 403
+      }
+    ],
+    "working_endpoints": [
+      {
+        "url": "https://www.figma.com/api/templates",
+        "source": "common_pattern",
+        "type": "api_endpoint",
+        "status": "auth_required",
+        "status_code": 401
+      },
+      {
+        "url": "https://www.figma.com/api/templates",
+        "source": "common_pattern",
+        "type": "api_endpoint",
+        "status": "auth_required",
+        "status_code": 401
+      },
+      {
+        "url": "https://www.figma.com/graphql",
+        "source": "graphql_check",
+        "type": "graphql_endpoint",
+        "status": "auth_required",
+        "status_code": 403
+      },
+      {
+        "url": "https://www.figma.com/v1/graphql",
+        "source": "graphql_check",
+        "type": "graphql_endpoint",
+        "status": "auth_required",
+        "status_code": 403
+      },
+      {
+        "url": "https://www.figma.com/graph",
+        "source": "graphql_check",
+        "type": "graphql_endpoint",
+        "status": "auth_required",
+        "status_code": 403
+      }
+    ],
+    "analysis": {
+      "platform": "Figma Make",
+      "total_endpoints_tested": 5,
+      "api_endpoints": [],
+      "html_pages": [],
+      "auth_required": [
+        {
+          "url": "https://www.figma.com/api/templates",
+          "source": "common_pattern",
+          "type": "api_endpoint",
+          "status": "auth_required",
+          "status_code": 401
+        },
+        {
+          "url": "https://www.figma.com/api/templates",
+          "source": "common_pattern",
+          "type": "api_endpoint",
+          "status": "auth_required",
+          "status_code": 401
+        },
+        {
+          "url": "https://www.figma.com/graphql",
+          "source": "graphql_check",
+          "type": "graphql_endpoint",
+          "status": "auth_required",
+          "status_code": 403
+        },
+        {
+          "url": "https://www.figma.com/v1/graphql",
+          "source": "graphql_check",
+          "type": "graphql_endpoint",
+          "status": "auth_required",
+          "status_code": 403
+        },
+        {
+          "url": "https://www.figma.com/graph",
+          "source": "graphql_check",
+          "type": "graphql_endpoint",
+          "status": "auth_required",
+          "status_code": 403
+        }
+      ],
+      "recommendations": [
+        "Authentication needed - investigate OAuth/API keys"
+      ]
+    },
+    "timestamp": "2025-09-18T14:07:45.230806"
+  }
+}
