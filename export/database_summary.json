@@ -1,0 +1,18 @@
+{
+  "database_summary": {
+    "platforms": 11,
+    "sqlite_sequence": 8,
+    "applications": 2051,
+    "github_repositories": 87,
+    "repository_files": 90,
+    "community_apps": 1964,
+    "ai_tools": 11,
+    "application_ai_tools": 2051,
+    "scraping_jobs": 10,
+    "applications_fts": 2051,
+    "applications_fts_data": 39,
+    "applications_fts_idx": 24,
+    "applications_fts_docsize": 2051,
+    "applications_fts_config": 1
+  }
+}

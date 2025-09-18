@@ -1,0 +1,12 @@
+id,name,category,provider,description
+1,Claude,llm,Anthropic,Claude AI assistant for coding and development
+2,GPT-4,llm,OpenAI,GPT-4 language model
+3,Gemini,llm,Google,Google Gemini AI
+4,v0,code_generator,Vercel,AI-powered React component generator
+5,Lovable,platform,Lovable,Full-stack AI development platform
+6,Bolt,ide,StackBlitz,AI-powered development environment
+7,Replit Agent,assistant,Replit,AI coding assistant for Replit
+8,Jules,assistant,Google,Google Jules code assistant
+9,Stitch,tool,Google,Google Stitch development tool
+10,Figma Make,generator,Figma,Visual component generator
+11,AI Agents,,,

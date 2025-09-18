@@ -1,0 +1,15 @@
+{
+  "scrape_timestamp": "2025-09-18T10:39:02.843128",
+  "total_files": 0,
+  "source": "github_code_search_enhanced",
+  "results_by_type": {
+    "claude": [],
+    "gemini": [],
+    "agents": []
+  },
+  "summary": {
+    "claude_files": 0,
+    "gemini_files": 0,
+    "agents_files": 0
+  }
+}

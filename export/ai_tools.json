@@ -1,0 +1,79 @@
+[
+  {
+    "id": 1,
+    "name": "Claude",
+    "category": "llm",
+    "provider": "Anthropic",
+    "description": "Claude AI assistant for coding and development"
+  },
+  {
+    "id": 2,
+    "name": "GPT-4",
+    "category": "llm",
+    "provider": "OpenAI",
+    "description": "GPT-4 language model"
+  },
+  {
+    "id": 3,
+    "name": "Gemini",
+    "category": "llm",
+    "provider": "Google",
+    "description": "Google Gemini AI"
+  },
+  {
+    "id": 4,
+    "name": "v0",
+    "category": "code_generator",
+    "provider": "Vercel",
+    "description": "AI-powered React component generator"
+  },
+  {
+    "id": 5,
+    "name": "Lovable",
+    "category": "platform",
+    "provider": "Lovable",
+    "description": "Full-stack AI development platform"
+  },
+  {
+    "id": 6,
+    "name": "Bolt",
+    "category": "ide",
+    "provider": "StackBlitz",
+    "description": "AI-powered development environment"
+  },
+  {
+    "id": 7,
+    "name": "Replit Agent",
+    "category": "assistant",
+    "provider": "Replit",
+    "description": "AI coding assistant for Replit"
+  },
+  {
+    "id": 8,
+    "name": "Jules",
+    "category": "assistant",
+    "provider": "Google",
+    "description": "Google Jules code assistant"
+  },
+  {
+    "id": 9,
+    "name": "Stitch",
+    "category": "tool",
+    "provider": "Google",
+    "description": "Google Stitch development tool"
+  },
+  {
+    "id": 10,
+    "name": "Figma Make",
+    "category": "generator",
+    "provider": "Figma",
+    "description": "Visual component generator"
+  },
+  {
+    "id": 11,
+    "name": "AI Agents",
+    "category": null,
+    "provider": null,
+    "description": null
+  }
+]

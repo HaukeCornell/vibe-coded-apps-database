@@ -1,0 +1,11 @@
+id,platform_id,job_type,status,query_params,items_found,items_processed,started_at,completed_at,error_message,next_run_at
+1,6,github_search,completed,"{""query"": ""filename:AGENTS.md"", ""file_type"": ""agents_md""}",0,0,2025-09-17T19:48:58.910070,2025-09-17T19:48:59.122293,,
+2,6,github_search,completed,"{""query"": ""filename:claude.md OR filename:CLAUDE.md"", ""file_type"": ""claude_md""}",0,0,2025-09-17T19:48:59.123574,2025-09-17T19:49:00.106469,,
+3,6,github_search,completed,"{""query"": ""filename:gemini.md OR filename:GEMINI.md"", ""file_type"": ""gemini_md""}",0,0,2025-09-17T19:49:00.107581,2025-09-17T19:49:01.094113,,
+4,6,github_search,completed,"{""query"": ""filename:README.md lovable"", ""file_type"": ""lovable_md""}",0,0,2025-09-17T19:49:01.098429,2025-09-17T19:49:02.040837,,
+5,6,github_search,completed,"{""query"": ""filename:README.md bolt.new"", ""file_type"": ""bolt_md""}",0,0,2025-09-17T19:49:02.045011,2025-09-17T19:49:03.041670,,
+6,6,github_search,completed,"{""query"": ""filename:README.md replit"", ""file_type"": ""replit_md""}",0,0,2025-09-17T19:49:03.045009,2025-09-17T19:49:04.081687,,
+7,6,github_search,completed,"{""query"": ""filename:README.md v0.dev"", ""file_type"": ""v0_readme_md""}",0,0,2025-09-17T19:49:04.084002,2025-09-17T19:49:05.044984,,
+8,1,community_scrape,completed,{},2006,2006,2025-09-17T19:49:05.051634,2025-09-17T19:49:07.159522,,
+9,3,api_fetch,completed,{},0,0,2025-09-17T19:49:07.159948,2025-09-17T19:49:07.160793,,
+10,2,api_fetch,completed,{},0,0,2025-09-17T19:49:07.161173,2025-09-17T19:49:07.161867,,

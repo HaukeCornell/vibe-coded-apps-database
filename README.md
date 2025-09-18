@@ -1,61 +1,94 @@
 # Vibe Coded Apps Database
 
-A comprehensive database for tracking AI-assisted applications across multiple vibe coding platforms, designed for academic research and industry analysis.
+A comprehensive database of AI-generated web applications and tools collected from various vibe coding platforms.
 
-## Overview
+## 📊 Current Dataset (September 2025)
 
-This database collects and organizes data about applications created using AI-powered development tools (also known as "vibe coding" platforms). It includes apps from GitHub repositories, v0.dev community, Lovable, Bolt, and other AI-assisted development platforms.
+**Total Applications**: 2,844 unique vibe-coded apps  
+**Platforms Covered**: 12 different AI coding platforms  
+**GitHub Repositories**: 949 linked repositories  
+**Community Projects**: 1,964 community-shared projects
 
-## Features
+## 🗂️ Data Tables (GitHub-browsable)
 
-- **Unified Database Schema**: SQLite database with normalized tables for apps, platforms, GitHub repos, and AI tools
-- **Multi-Platform Support**: GitHub, v0.dev, Lovable, Bolt, Replit, and more
-- **Automatic Data Processing**: Scripts to import and normalize data from different sources
-- **Update Automation**: Continuous data collection with rate limiting and error handling
-- **Academic Citations**: Auto-generated BibTeX entries and LaTeX tables for research papers
-- **Comprehensive Statistics**: Platform analytics, AI tool usage, and growth metrics
+### Core Data
+- **[applications_summary.csv](export/applications_summary.csv)** - Main table with all 2,844 vibe-coded apps
+- **[platforms.csv](export/platforms.csv)** - 12 AI coding platforms (v0.dev, Bolt, Lovable, GitHub, etc.)
+- **[github_repositories_summary.csv](export/github_repositories_summary.csv)** - GitHub repo metadata for 949 projects
 
-## Quick Start
+### Extended Information  
+- **[database_statistics.json](export/database_statistics.json)** - Complete stats breakdown by platform
+- **[repository_files.csv](export/repository_files.csv)** - Special files (AGENTS.md, CLAUDE.md, etc.)
+- **[community_apps.csv](export/community_apps.csv)** - 1,964 community-shared projects
+- **[application_ai_tools.csv](export/application_ai_tools.csv)** - AI tool usage per application
 
-### Prerequisites
+### Summary
+- **[database_summary.json](export/database_summary.json)** - Quick stats overview
 
-- Python 3.7 or higher
-- pip package manager
-- Optional: GitHub token for better rate limits
+## 🚀 Data Sources
 
-### One-Run Setup
+### ✅ **Working Scrapers** (2,844 apps collected)
+- **GitHub AGENTS.md Search**: 793 vibe-coded repositories with AGENTS.md files
+- **v0.dev Community**: Manual collection of 1,964 community projects  
+- **Bolt Supabase API**: 87 projects from bolt.new platform
+- **Manual Platforms**: Various AI coding platforms and tools
 
-```bash
-# Clone the repository
-git clone https://github.com/your-username/vibe-coded-apps-database.git
-cd vibe-coded-apps-database
+### 🔄 **TODO: Pending Authentication/Setup** (27,979+ more apps available)
+- **Bolt Supabase API**: 1,140 more projects from bolt.new platform (87 of 1,227 collected)
+- **Lovable Community API**: 99 projects from lovable.dev platform  
+- **Jules GitHub PRs**: 25,945 more PRs from google-labs-jules[bot] (1,000 of 26,945 collected)
+- **v0.dev Browser Scraping**: 44+ more community projects (2,008 estimated total)
+- **GitHub AGENTS.md**: 4,791 more repositories (1,000 of 5,824 collected)
 
-# Install dependencies
-pip install requests
+## 🛠️ Repository Structure
 
-# Set GitHub token (optional but recommended)
-export GITHUB_TOKEN="your_github_token_here"
-
-# Run complete setup in one command
-python setup_database.py
+```
+vibe-coded-apps-database/
+├── export/                    # GitHub-browsable data tables (CSV/JSON)
+├── working-scrapers/          # Proven scraping scripts
+├── todo-scrapers/             # Blocked by auth/setup issues  
+├── tools/                     # Database utilities
+├── docs/                      # Documentation and schemas
+├── First-Scrape/             # Reference data (manual collection)
+├── data/                     # Raw scraped data
+└── vibe_coded_apps.db        # SQLite database
 ```
 
-This will:
-1. Create the SQLite database with schema
-2. Process existing scraped data
-3. Update with fresh data from APIs
-4. Generate statistics and citations
-5. Create LaTeX files for academic papers
+## 🎯 Project Goal
 
-## Current Data
+**Target**: ~30,000 vibe-coded applications  
+**Current**: 2,051 (7% complete)  
+**Blocked**: 29,186+ apps waiting for GitHub API auth & platform integration
+
+## 📈 Next Steps
+
+1. **GitHub Authentication** - Unlock 6,712 AGENTS.md vibe-coded repositories
+2. **Bolt Integration** - Collect 1,227 projects from bolt.new platform  
+3. **Lovable Integration** - Collect 99 projects from lovable.dev platform
+4. **Jules Enhancement** - Expand from 1,000 to full 26,945 Google Jules PRs
+5. **Data Enhancement** - Extract prompts, authors, creation dates where available
+
+## 🔍 Data Fields
+
+Each application record includes:
+- **Basic Info**: name, URL, description, platform
+- **Metadata**: creation date, last update, activity status
+- **Source**: external ID, community URL, GitHub repository
+- **AI Tools**: detected AI assistants used (Claude, GPT, etc.)
+- **Extended**: author, tags, thumbnails, demo links (where available)
+
+---
+
+## Academic Research Setup (Legacy Instructions)
 
 Based on the initial scrape, the database contains:
 
-- **GitHub/Agents**: 6,712 repositories with AGENTS.md files
-- **GitHub/Claude**: 7,500 repositories mentioning Claude AI
-- **v0.dev**: 2,008+ community applications  
-- **GitHub/Gemini**: 1,200 repositories with Gemini AI references
-- **Total**: 17,420+ AI-assisted applications tracked
+- **GitHub/AGENTS.md**: 6,712 repositories with vibe-coded AGENTS.md files  
+- **Bolt Platform**: 1,227 projects from bolt.new AI development platform
+- **v0.dev Platform**: 2,008+ community applications from Vercel's AI generator
+- **Lovable Platform**: 99 projects from lovable.dev AI development platform  
+- **Jules Bot**: 26,945 pull requests from Google's AI code assistant
+- **Total**: 31,051+ legitimate vibe-coded applications tracked
 
 ## Database Schema
 

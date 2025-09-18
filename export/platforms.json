@@ -1,0 +1,79 @@
+[
+  {
+    "id": 1,
+    "name": "v0.dev",
+    "url": "https://v0.dev",
+    "description": "Vercel v0 AI web app generator",
+    "created_at": "2025-09-17 23:48:56"
+  },
+  {
+    "id": 2,
+    "name": "lovable.dev",
+    "url": "https://lovable.dev",
+    "description": "Lovable AI app development platform",
+    "created_at": "2025-09-17 23:48:56"
+  },
+  {
+    "id": 3,
+    "name": "bolt.new",
+    "url": "https://bolt.new",
+    "description": "StackBlitz AI-powered development environment",
+    "created_at": "2025-09-17 23:48:56"
+  },
+  {
+    "id": 4,
+    "name": "replit.com",
+    "url": "https://replit.com",
+    "description": "Replit AI-assisted coding platform",
+    "created_at": "2025-09-17 23:48:56"
+  },
+  {
+    "id": 5,
+    "name": "subframe.com",
+    "url": "https://subframe.com",
+    "description": "Subframe visual development platform",
+    "created_at": "2025-09-17 23:48:56"
+  },
+  {
+    "id": 6,
+    "name": "github.com",
+    "url": "https://github.com",
+    "description": "GitHub repositories with AI tools",
+    "created_at": "2025-09-17 23:48:56"
+  },
+  {
+    "id": 7,
+    "name": "claude.ai",
+    "url": "https://claude.ai",
+    "description": "Anthropic Claude AI assistant",
+    "created_at": "2025-09-17 23:48:56"
+  },
+  {
+    "id": 8,
+    "name": "gemini.ai",
+    "url": "https://gemini.google.com",
+    "description": "Google Gemini AI",
+    "created_at": "2025-09-17 23:48:56"
+  },
+  {
+    "id": 9,
+    "name": "jules.google.com",
+    "url": "https://jules.google.com",
+    "description": "Google Jules code assistant",
+    "created_at": "2025-09-17 23:48:56"
+  },
+  {
+    "id": 10,
+    "name": "stitch.google.com",
+    "url": "https://stitch.google.com",
+    "description": "Google Stitch development tool",
+    "created_at": "2025-09-17 23:48:56"
+  },
+  {
+    "id": 11,
+    "name": "figma.com",
+    "url": "https://figma.com",
+    "description": "Figma Make visual development",
+    "created_at": "2025-09-17 23:48:56"
+  }
+]

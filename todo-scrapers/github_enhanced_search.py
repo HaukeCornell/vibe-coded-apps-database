@@ -1,9 +1,12 @@
 #!/usr/bin/env python3
 """
-Enhanced GitHub Code Search Processor
+GitHub AGENTS.md Search Processor
 
-This script processes the full datasets from GitHub code search results,
-including 7,500 claude.md files, full gemini search results, and 6,700 AGENTS.md files.
+This script searches for legitimate vibe-coded repositories that contain AGENTS.md files.
+AGENTS.md files are a strong indicator of actual vibe-coded applications.
+
+Focus: Only AGENTS.md files (6,712 repositories)
+NOT: Generic Claude/Gemini mentions (not necessarily vibe-coded)
 """
 
 import json
@@ -202,25 +205,17 @@ class GitHubCodeSearchProcessor:
     
     def run_all_searches(self) -> Dict[str, List[Dict[str, Any]]]:
         """
-        Run all GitHub code searches and return results.
+        Run searches for all vibe-coded file types.
+        
+        Focus only on AGENTS.md files which indicate legitimate vibe-coded repositories.
         
         Returns:
-            Dictionary with search results for each type
+            Dictionary with search results by type
         """
         results = {}
         
-        # Search for Claude files
-        logger.info("Searching for Claude files...")
-        claude_files = self.search_claude_files()
-        results['claude'] = [self.process_code_file(f, 'claude') for f in claude_files]
-        
-        # Search for Gemini files  
-        logger.info("Searching for Gemini files...")
-        gemini_files = self.search_gemini_files()
-        results['gemini'] = [self.process_code_file(f, 'gemini') for f in gemini_files]
-        
-        # Search for Agents files
-        logger.info("Searching for Agents files...")
+        # Search for AGENTS.md files - strong indicator of vibe-coded repositories
+        logger.info("Searching for AGENTS.md files in vibe-coded repositories...")
         agents_files = self.search_agents_files()
         results['agents'] = [self.process_code_file(f, 'agents') for f in agents_files]
         
@@ -247,12 +242,12 @@ class GitHubCodeSearchProcessor:
         data = {
             'scrape_timestamp': datetime.now().isoformat(),
             'total_files': total_files,
-            'source': 'github_code_search_enhanced',
+            'source': 'github_agents_search',
+            'description': 'AGENTS.md files from vibe-coded repositories',
             'results_by_type': results,
             'summary': {
-                'claude_files': len(results.get('claude', [])),
-                'gemini_files': len(results.get('gemini', [])),
                 'agents_files': len(results.get('agents', [])),
+                'vibe_coded_repositories': len(results.get('agents', [])),
             }
         }
         
@@ -264,21 +259,31 @@ class GitHubCodeSearchProcessor:
 
 
 def main():
-    """Main function to run the enhanced GitHub code search."""
-    processor = GitHubCodeSearchProcessor()
+    """Main function to run the GitHub AGENTS.md search."""
+    import os
     
-    logger.info("Starting enhanced GitHub code search...")
+    # Get GitHub token from environment
+    github_token = os.getenv('GITHUB_TOKEN')
+    if not github_token:
+        logger.error("GITHUB_TOKEN not found in environment variables!")
+        logger.error("Please set your GitHub token: export GITHUB_TOKEN='your_token'")
+        return
     
-    # Run all searches
+    logger.info(f"Using GitHub token: {github_token[:8]}...")
+    processor = GitHubCodeSearchProcessor(github_token=github_token)
+    
+    logger.info("Starting GitHub AGENTS.md search for vibe-coded repositories...")
+    
+    # Run AGENTS.md search only
     results = processor.run_all_searches()
     
     # Save results
     output_file = processor.save_results(results)
     
     # Print summary
-    print(f"\n=== GitHub Code Search Summary ===")
+    print(f"\n=== GitHub AGENTS.md Search Summary ===")
     print(f"Output file: {output_file}")
-    print(f"Total files found: {sum(len(files) for files in results.values())}")
+    print(f"Total AGENTS.md files found: {sum(len(files) for files in results.values())}")
     
     for search_type, files in results.items():
         print(f"{search_type.capitalize()} files: {len(files)}")
@@ -294,7 +299,7 @@ def main():
             for repo, count in sorted(repos.items(), key=lambda x: x[1], reverse=True)[:5]:
                 print(f"    {repo}: {count} files")
     
-    logger.info("Enhanced GitHub code search completed!")
+    logger.info("GitHub AGENTS.md search completed!")
 
 
 if __name__ == "__main__":
