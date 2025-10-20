@@ -1,1 +1,41 @@
+This folder contains the latest set of scraped data from AI-based no-code / low-code website creation platforms.
+The data was collected using Octoparse 8, focusing on publicly available project listings, templates, and related metadata.
 
+Each file represents data from a different no-code platform that allows users to build applications or websites without writing traditional code.
+
+🗂️ Files in This Folder
+File Name	Description	Format
+bolt_gallery_projects_20251006_092520xlsx	Data scraped from Bolt Gallery, containing project listings and metadata.	.json.xlsx
+ai_studio.xlsx	Dataset from AI Studio, including site templates, project info, and creation stats.	.xlsx
+Meku.DEV.xlsx	Exported dataset from Meku.dev, listing AI-generated websites and user projects.	.xlsx
+lovable_community_projects_20251001_193609.xlsx	Community project data from Lovable AI, featuring public creations and contributors.	.json.xlsx
+jules_github_prs_20251006_092113.xlsx	GitHub-related project data linked to Jules, focused on PRs and project metadata.	.json.xlsx
+⚙️ Scraping Details
+
+Scraping Tool: Octoparse 8
+
+Scraping Type: Structured extraction (project names, descriptions, URLs, creation dates, etc.)
+
+Output Format: .xlsx and .json.xlsx (converted from original JSON output)
+
+Date of Extraction: October 2025
+
+Data Cleaning: Minimal; original scraped structure preserved for reference.
+
+🎯 Purpose
+
+The goal of this scraping batch is to:
+
+Collect up-to-date datasets from active no-code website builder platforms.
+
+Compare project characteristics across multiple platforms.
+
+Contribute new data to the Vibe-Coded Apps Database for further analysis.
+
+🧩 Notes
+
+All scraped data originates from publicly accessible pages.
+
+Use of this data is strictly for academic and research purposes.
+
+For large-scale analysis, these files can be merged into a single master dataset.
