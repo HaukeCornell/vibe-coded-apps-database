@@ -2,7 +2,7 @@
 
 ### 🧠 Overview
 This folder contains the latest batch of scraped data from **AI-based no-code / low-code website creation platforms**.  
-The data was collected using **Octoparse 8**, focusing on publicly available project listings, templates, and related metadata.
+The data was collected using **Octoparse 8** and **Python script pulls structured data directly from an API**, focusing on publicly available project listings, templates, and related metadata.
 
 Each file represents data from a different no-code platform that allows users to build applications or websites **without writing traditional code**.
 
